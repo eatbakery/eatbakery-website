@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eat Bakery</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-yellow-50 font-sans">
+  <!-- Header -->
+  <header class="bg-yellow-300 shadow-md p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-brown-800">Eat Bakery</h1>
+      <nav class="space-x-4">
+        <a href="#home" class="text-brown-900 hover:underline">Beranda</a>
+        <a href="#produk" class="text-brown-900 hover:underline">Produk</a>
+        <a href="#tentang" class="text-brown-900 hover:underline">Tentang</a>
+        <a href="#kontak" class="text-brown-900 hover:underline">Kontak</a>
+      </nav>
+    </div>
+  </header>  <!-- Hero Section -->  <section id="home" class="bg-yellow-200 text-center py-16 px-4">
+    <h2 class="text-4xl font-bold mb-4">Selamat Datang di Eat Bakery</h2>
+    <p class="text-lg">Rasakan Roti dan Kue Fresh Setiap Hari!</p>
+    <a href="#produk" class="mt-6 inline-block bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-6 py-2 rounded-full">Lihat Produk</a>
+  </section>  <!-- Produk Section -->  <section id="produk" class="py-16 bg-white px-4">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-bold text-center mb-10">Produk Kami</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Produk Card -->
+        <div class="bg-yellow-100 rounded-lg shadow-md p-4 text-center">
+          <img src="https://source.unsplash.com/300x200/?bread" alt="Roti Manis" class="w-full h-48 object-cover rounded-md mb-4">
+          <h4 class="text-xl font-bold">Roti Manis</h4>
+          <p class="text-sm mt-2">Lembut, harum, dan cocok untuk sarapan.</p>
+        </div>
+        <div class="bg-yellow-100 rounded-lg shadow-md p-4 text-center">
+          <img src="https://source.unsplash.com/300x200/?cake" alt="Kue Tart" class="w-full h-48 object-cover rounded-md mb-4">
+          <h4 class="text-xl font-bold">Kue Tart</h4>
+          <p class="text-sm mt-2">Dekoratif dan cocok untuk segala acara.</p>
+        </div>
+        <div class="bg-yellow-100 rounded-lg shadow-md p-4 text-center">
+          <img src="https://source.unsplash.com/300x200/?croissant" alt="Croissant" class="w-full h-48 object-cover rounded-md mb-4">
+          <h4 class="text-xl font-bold">Croissant</h4>
+          <p class="text-sm mt-2">Renyan di luar, lembut di dalam.</p>
+        </div>
+      </div>
+    </div>
+  </section>  <!-- Tentang Section -->  <section id="tentang" class="py-16 bg-yellow-50 px-4">
+    <div class="container mx-auto text-center max-w-2xl">
+      <h3 class="text-3xl font-bold mb-6">Tentang Kami</h3>
+      <p class="text-md text-gray-700">Eat Bakery adalah toko roti rumahan yang berdedikasi menyajikan roti dan kue segar setiap hari. Kami percaya bahwa setiap gigitan harus membawa kebahagiaan. Dibuat dengan bahan berkualitas dan cinta dari dapur kami.</p>
+    </div>
+  </section>  <!-- Kontak Section -->  <section id="kontak" class="py-16 bg-white px-4">
+    <div class="container mx-auto text-center max-w-lg">
+      <h3 class="text-3xl font-bold mb-6">Hubungi Kami</h3>
+      <form action="#" method="post" class="space-y-4">
+        <input type="text" placeholder="Nama" class="w-full p-2 border border-gray-300 rounded" required>
+        <input type="email" placeholder="Email" class="w-full p-2 border border-gray-300 rounded" required>
+        <textarea placeholder="Pesan" class="w-full p-2 border border-gray-300 rounded" rows="4" required></textarea>
+        <button type="submit" class="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded">Kirim</button>
+      </form>
+    </div>
+  </section>  <!-- Footer -->  <footer class="bg-yellow-300 text-center p-4">
+    <p class="text-sm text-gray-800">&copy; 2025 Eat Bakery. All rights reserved.</p>
+  </footer>
+</body>
+</html> 
